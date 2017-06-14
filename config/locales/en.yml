@@ -1,0 +1,7 @@
+en:
+  label_out_of_band_auth: Out of Band Authentication
+  field_enabled_out_of_band_auth: Enable out of band authentication
+  notice_sent_verification_code: "An email containing the verification code was sent to %{email}."
+  mail_body_verification_code: "%{code} is your verification code."
+  mail_subject_verification_code: "%{value} Send verification code"
+  field_verification_code: Verification code

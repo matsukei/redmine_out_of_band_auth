@@ -1,0 +1,7 @@
+ja:
+  label_out_of_band_auth: アウトオブバンド認証
+  field_enabled_out_of_band_auth: アウトオブバンド認証を有効にする
+  notice_sent_verification_code: "確認コードを記載したメールを %{email} 宛に送信しました。"
+  mail_body_verification_code: "%{code} があなたの確認コードです。"
+  mail_subject_verification_code: "%{value} 確認コードの送信"
+  field_verification_code: 確認コード

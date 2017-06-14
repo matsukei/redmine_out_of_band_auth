@@ -1,0 +1,14 @@
+<h2><%=l(:label_out_of_band_auth)%></h2>
+
+<div id="login-form">
+  <%= form_tag({ controller: 'out_of_band_auths', action: 'login' }, onsubmit: 'return keepAnchorOnSignIn(this);') do %>
+
+  <label for="password">
+    <%= l(:field_verification_code) %>
+  </label>
+  <%= text_field_tag 'password', nil, tabindex: '1', required: true %>
+
+  <input type="submit" name="login" value="<%=l(:button_submit)%>" tabindex="2" id="login-submit" />
+  <% end %>
+</div>
+<%= javascript_tag "$('#password').focus();" %>
