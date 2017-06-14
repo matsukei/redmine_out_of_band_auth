@@ -1,4 +1,4 @@
-# Redmine Out of Band Auth
+# Redmine Out of Band Auth (2 factor authentication, 2FA)
 
 [![Build Status](https://travis-ci.org/matsukei/redmine_out_of_band_auth.svg?branch=master)](https://travis-ci.org/matsukei/redmine_out_of_band_auth)
 
